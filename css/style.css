@@ -1,0 +1,175 @@
+*{
+  box-sizing:border-box;
+}
+
+#divheading{
+	font-family: Arial , Helvetica , sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	text-align:center;
+	margin:40px;
+}
+
+#p4{
+	background-color: lightpink;
+  width: 100px;
+	height: 30px;
+  border : 2px solid black;
+  padding-left: 20px;
+  padding-top: 5px;
+  float:right;
+  position: relative;
+}
+
+#p5{
+	background-color: indianred;
+	color: white;
+	width: 100px;
+	height: 30px;
+	border : 2px solid black;
+	padding-left: 30px;
+  padding-top: 5px;
+  float: right;
+  position: relative;
+}
+
+#p6{
+	background-color: yellow;
+	width: 100px;
+	height: 30px;
+	border : 2px solid black;
+	padding-left: 30px;
+  padding-top: 5px;
+  float: right;
+  position: relative;
+}
+
+#p1{
+  padding-top: 30px;
+  padding-left: 20px;
+	height: 140px;
+	position: relative;
+  background-color: grey ;
+  text-align: left;
+  border : 2px solid black;
+  float: left;
+}
+
+#p2{
+	padding-top: 30px;
+  padding-left: 20px;
+	float: left;
+	height: 140px;  
+	position: relative;
+	background-color: grey;
+	text-align: left;
+	border : 2px solid black;
+	margin-left: 10px;
+}
+
+#p3{
+  padding-top: 30px;
+  padding-left: 20px;
+	float: right;
+	clear: right;
+	height: 140px;
+	position: relative;
+	background-color: grey ;
+	text-align: left;
+	border : 2px solid black;
+}
+
+@media(min-width:992px){
+ #p1{
+ 	width: 32.6%;
+ }
+
+ #p3{
+ 	width:33.33%;
+ }
+
+ #p2{
+ 	width:32.6%;
+ }
+
+ #p4{
+  bottom: 140px;
+  right: 910px;
+ 	
+ }
+
+ #p5{
+  bottom: 140px;
+  right: 360px;
+ }
+
+ #p6{
+ 	bottom: 140px;
+ 	left: 200px;
+ }
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+#p1{
+	width:49%;
+ }
+
+ #p2{
+ 	width:49%;
+
+ }
+
+ #p3{
+ 	width:100%;
+ 	margin-top:20px;
+ }
+
+ #p4{
+ 	bottom: 300px;
+ 	right:410px;
+ }
+
+ #p5{
+ 	bottom: 300px;
+ 	left: 94px;
+ }
+
+ #p6{
+  bottom: 140px;
+  left: 200px;
+ }
+}
+
+@media(max-width:767px){
+#p1{
+	width:100%;
+	
+ }
+
+ #p2{
+ 	width:100%;
+ 	top: 20px;
+ 	margin: 0px;
+ }
+
+ #p3{
+ 	width:100%;
+ 	top: 40px;
+ }
+
+ #p4{
+ 	 bottom: 420px;
+
+ }
+
+ #p5{
+ 	bottom: 260px;
+ 	left: 100px;
+ }
+
+ #p6{
+ 	bottom: 100px;
+ 	left: 200px;
+ }
+}
